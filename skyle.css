@@ -1,0 +1,48 @@
+*{
+    padding: unset;
+    margin: unset;
+    border: unset;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    outline: unset;
+
+}
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 60px;
+    margin-block-start: 0%;
+}
+button{
+    padding: 0.5rem;
+    background-color: #F4C80F;
+    border-radius: 10px;
+}
+.tarjeta{
+    padding: 1rem;
+    background-color: #d9d9d956;
+    margin: 3%;
+    width: 431px;
+    display: inline-block;
+    height: 210px;
+    border-radius: 10px;
+    
+}
+.tarj{
+
+}
+.mov{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+ background-image: url(/img/fondo.svg);
+}
+    
