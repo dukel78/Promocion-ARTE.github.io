@@ -16,13 +16,25 @@
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
-    margin: 60px;
     margin-block-start: 0%;
+    
+}
+.barra2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4C80F;
+    justify-content: center;
+}
+.barra2p{
+    display: flex;
+    align-items: center;
 }
 button{
     padding: 0.5rem;
     background-color: #F4C80F;
     border-radius: 10px;
+    cursor: pointer;
 }
 .tarjeta{
     padding: 1rem;
