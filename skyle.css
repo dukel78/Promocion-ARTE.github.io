@@ -75,7 +75,7 @@
 .jumbotron{
     padding-bottom: 450px;
     min-width: 100%;
-    background: url(/img/jumbotron.svg);
+    background: url(img/jumbotron.svg);
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
