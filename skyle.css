@@ -11,17 +11,59 @@
     outline: unset;
 
 }
+
+
+
+
 .barracolor{
     padding: auto;
     background-color: #FFFFFF;
+     
 }
 .barra{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-block-start: 0%;
-    margin: 0 60px 0 60px;
-    
+    margin: 0 60px 0 60px;   
+}
+@media (max-width: 950px){
+     .barra{
+        display: none;
+     }
+     .tarjeta{
+        padding: 1rem;
+        background-color: #d9d9d956;
+        margin: 1%;
+        width: 12rem;
+        display: inline-block;
+        border-radius: 10px;
+        
+     }
+     .img-2{
+        width: 2rem;
+     }
+
+     *{
+        font-size: 10px;
+     }
+
+     .tarj{
+        margin: 0;
+
+     }
+
+     .tran{
+        margin: 1rem;
+     }
+
+     .jumbotron{
+        background-size: contain;
+     }
+
+     .img-n{
+        width: 150px;
+     }
 }
 .barra2{
     display: flex;
@@ -32,9 +74,9 @@
 }
 .jumbotron{
     padding-bottom: 450px;
-    min-width: 340px;
+    min-width: 100%;
     background: url(/img/jumbotron.svg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     display: flex;
     align-items:flex-end;
@@ -55,9 +97,8 @@ button{
     padding: 1rem;
     background-color: #d9d9d956;
     margin: 3%;
-    width: 431px;
+    width: 27rem;
     display: inline-block;
-    height: 210px;
     border-radius: 10px;
     
 }
@@ -66,8 +107,8 @@ button{
     align-items: center;
     justify-content: space-between;
     margin-block-start: 0%;
-    margin: 0 60px 0 60px;
-
+    margin: 0 5rem 0 5rem;
+    
 }
 .mov{
     display: flex;
@@ -83,7 +124,7 @@ body{
 .tran{
     max-width: 402px;
     max-height: 320px;
-    margin: 60px 250px 60px 250px;
+    margin: 5rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -106,4 +147,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nosotros{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 10rem 0 10rem;
+
+}
+.img-n{
+    margin-right: 5rem;
+}
+.th{
+    margin-left: 5rem;
+}
+img{
+    
+}
+.img-2{
+   width: 5rem;
+}
+.img-3{
+    width: 10rem;
+    height: 17rem;
 }
