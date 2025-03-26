@@ -146,6 +146,12 @@ img{
 }
 @media (max-width: 950px){
     .barra{
+        display: none;
+     }
+
+}
+@media (max-width: 550px){
+    .barra{
        display: none;
     }
     .tarjeta{
