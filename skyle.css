@@ -27,44 +27,8 @@
     margin-block-start: 0%;
     margin: 0 60px 0 60px;   
 }
-@media (max-width: 950px){
-     .barra{
-        display: none;
-     }
-     .tarjeta{
-        padding: 1rem;
-        background-color: #d9d9d956;
-        margin: 1%;
-        width: 12rem;
-        display: inline-block;
-        border-radius: 10px;
-        
-     }
-     .img-2{
-        width: 2rem;
-     }
 
-     *{
-        font-size: 10px;
-     }
 
-     .tarj{
-        margin: 0;
-
-     }
-
-     .tran{
-        margin: 1rem;
-     }
-
-     .jumbotron{
-        background-size: contain;
-     }
-
-     .img-n{
-        width: 150px;
-     }
-}
 .barra2{
     display: flex;
     align-items: center;
@@ -75,7 +39,7 @@
 .jumbotron{
     padding-bottom: 450px;
     min-width: 100%;
-    background: url(img/jumbotron.svg);
+    background: url(img/book-1802861_1280\ 1.svg);
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
@@ -171,4 +135,42 @@ img{
 .img-3{
     width: 10rem;
     height: 17rem;
+}
+@media (max-width: 950px){
+    .barra{
+       display: none;
+    }
+    .tarjeta{
+       padding: 1rem;
+       background-color: #d9d9d956;
+       margin: 1%;
+       width: 12rem;
+       display: inline-block;
+       border-radius: 10px;
+       
+    }
+    .img-2{
+       width: 2rem;
+    }
+
+    *{
+       font-size: 10px;
+    }
+
+    .tarj{
+       margin: 0;
+
+    }
+
+    .tran{
+       margin: 1rem;
+    }
+
+    .jumbotron{
+    
+    }
+
+    .img-n{
+       width: 150px;
+    }
 }
