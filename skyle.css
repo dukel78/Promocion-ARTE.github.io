@@ -159,11 +159,26 @@ img{
     }
     
 }
-@media (max-width: 950px){
+@media (max-width:950px){
     .barra{
         display: none;
      }
-
+     .tarj{
+        margin: 0 1rem 0 1rem;
+     }
+     .tarjeta{
+        margin: 1%;
+        padding: 0.5rem;
+     }
+     .tran{
+        margin: 1rem;
+     }
+    .nosotros{
+        margin: 0 1rem 0 1rem;
+    }
+    .img-n{
+        margin-right: 0.5rem;
+    }
 }
 @media (max-width: 550px){
     .barra{
@@ -228,10 +243,10 @@ img{
         min-width: 9rem;
         max-height: 25rem;
     }
-    button{
-        display:;
-    }
+    
     .img-b{
         width: 6rem;
     }
+
+
 }
