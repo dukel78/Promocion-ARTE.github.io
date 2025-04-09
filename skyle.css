@@ -17,7 +17,9 @@
 
 
 
-
+a{
+    color: black;
+}
 .barracolor{
     background-color: #FFFFFF;
     display: inline-flex;
@@ -102,14 +104,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(177, 177, 177);
 }
 .t{
-    width:auto;
-    height: fit-content;
     margin: 1rem;
-
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15rem
+}
+.t-b{
+    background-color: #F4C80F;
+    border-radius: 0;
 }
 .buscador{
     padding: 10px 29px;
@@ -137,6 +144,7 @@ margin: 0 10rem 0 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 img{
     
@@ -152,6 +160,15 @@ img{
     min-width: 15rem;
     width: auto;
     max-height: 30rem;
+}
+.img-4{
+    max-width: 7rem;
+}
+.img-4b{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
 }
 @media (min-width:950px) {
     .barra-2{
@@ -175,6 +192,7 @@ img{
      }
     .nosotros{
         margin: 0 1rem 0 1rem;
+        
     }
     .img-n{
         margin-right: 0.5rem;
@@ -336,9 +354,20 @@ img{
     }
     .t{
         margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 15rem
+    }
+    .t-b{
+        background-color: #F4C80F;
+        border-radius: 0;
     }
     .nosotros{
         margin: 0 1rem 0 1rem;
+        display: flex;
+        flex-direction: column;
     }
     .parrafo{
         min-width: 9rem;
@@ -457,5 +486,8 @@ img{
     .menuppal ul li a:hover{
       text-decoration:none;
       color:#333;
+    }
+    .img-4{
+        max-width: 4rem;
     }
 }
