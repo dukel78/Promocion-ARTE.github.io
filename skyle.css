@@ -94,9 +94,7 @@ button{
 body{
  background-color: #F1ECEC;
 }
-.slach{
-    
-}
+
 .tran{
     max-width: 402px;
     max-height: 320px;
@@ -146,9 +144,7 @@ margin: 0 10rem 0 10rem;
     align-items: center;
     padding: 1rem;
 }
-img{
-    
-}
+
 .img-2{
    width: 5rem;
 }
@@ -169,6 +165,50 @@ img{
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+}
+.contactos-sect{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 30rem;
+        width: 25rem;
+        margin: 1rem;
+}
+.tarjeta-cont{
+    width: 20rem;
+    height: 13rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dbdbdb
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-a{
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dbdbdb
+}
+.esc{
+    margin: 1rem 0;
+}
+.text-p{
+    text-align: center;
 }
 @media (min-width:950px) {
     .barra-2{
@@ -340,7 +380,10 @@ img{
     .img-n{
         min-width: 10rem;
         max-height: 15rem;
-    }
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+   }
     .mov{
         min-height: 7rem;
         height: 100%;
@@ -366,6 +409,7 @@ img{
         margin: 0 1rem 0 1rem;
         display: flex;
         flex-direction: column;
+        height: 30rem;
     }
     .parrafo{
         min-width: 9rem;
@@ -382,7 +426,6 @@ img{
     
 
     a{
-        margin: 1rem;
         color: black;
     }
     .hamburger{ 
@@ -487,5 +530,32 @@ img{
     }
     .img-4{
         max-width: 4rem;
+    }
+    .contactos-sect{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 30rem;
+            width: 20rem;
+    }
+    .tarjeta-cont{
+        width: 20rem;
+        height: 13rem;
+        margin: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #dbdbdb
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-a{
+        width: 20rem;
     }
 }
