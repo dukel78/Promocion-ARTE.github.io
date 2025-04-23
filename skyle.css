@@ -111,7 +111,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     background-color: rgb(177, 177, 177);
-    border-radius: 10px;
+    border-radius: 0;
 }
 .t{
     margin: 1rem;
@@ -421,7 +421,7 @@ margin: 0 10rem 0 10rem;
        width: 90%;
        height: 15rem;
        display: inline-block;
-       border-radius: 10px;
+       border-radius: 0;
        margin: 1rem;
        
     }
@@ -635,5 +635,8 @@ margin: 0 10rem 0 10rem;
         width: 90%;
         height: 15rem;
         margin: 1rem;
+    }
+    a{
+        margin: 5px;
     }
 }
