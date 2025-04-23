@@ -19,3 +19,12 @@ menu.addEventListener('click', toggleMenu, false);
 		return false;
 	});
 });*/
+
+
+const buttonlist = document.querySelector('.lista-2')
+const listas = document.querySelector('.lista')
+
+buttonlist.addEventListener('click',()=>{
+	listas.classList.toggle('click');
+	listas.classList.toggle('agregado')
+})

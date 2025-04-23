@@ -274,6 +274,9 @@ margin: 0 10rem 0 10rem;
 .p-1{
     width: 100%;
 }
+.lista-2{
+    display: none;
+}
 @media (min-width:950px) {
     .barra-2{
         display: none;
@@ -407,6 +410,12 @@ margin: 0 10rem 0 10rem;
     }
     .lista{
         width: 100%;
+        display: none;
+        transition: width 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .agregado{
+       height: 100%;
     }
     .lista-a{
         flex-direction: column;
@@ -638,5 +647,16 @@ margin: 0 10rem 0 10rem;
     }
     a{
         margin: 5px;
+    }
+    .lista-2{
+        background-color: #F4C80F;      
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center 
+    }
+    .click{
+        display: flex;
     }
 }
