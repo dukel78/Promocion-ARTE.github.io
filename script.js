@@ -23,8 +23,9 @@ menu.addEventListener('click', toggleMenu, false);
 
 const buttonlist = document.querySelector('.lista-2')
 const listas = document.querySelector('.lista')
+const flecha = document.querySelector('.f-1')
 
 buttonlist.addEventListener('click',()=>{
 	listas.classList.toggle('click');
-	listas.classList.toggle('agregado')
+	flecha.classList.toggle('f-2');
 })
