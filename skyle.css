@@ -682,5 +682,8 @@ margin: 0 10rem 0 10rem;
     .f-2{
         transform: rotate(88deg);
     }
+    .barra-2{
+        max-height: 70px;
+    }
    
 }
