@@ -223,12 +223,12 @@ margin: 0 10rem 0 10rem;
     text-align: center;
 }
 .lista{
-    background-color: #d3d3d3;
+    background-color: #ffdb46;
     min-height: 25vh;
     width: 100%;
     display: none;
     justify-content: space-around;
-    align-items: flex-start
+    align-items: center
 }
 .lista-1{
  display: flex;
